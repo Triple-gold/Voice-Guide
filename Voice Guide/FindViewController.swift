@@ -199,9 +199,10 @@ class FindViewController: UIViewController, CLLocationManagerDelegate, MKMapView
         mapView?.addAnnotation(RockCarvingonKauSaiChauannotation.annotation)
     }
     
+    
     func settingCallout(_ annotation: MKAnnotation, forView annotationView: MKAnnotationView) {
         let button = UIButton(type: .detailDisclosure)
-        
+
         if annotation.title == "Chungking Mansions" {
             button.tag = 1
         }else if annotation.title == "Hong Kong Clock Tower" {
