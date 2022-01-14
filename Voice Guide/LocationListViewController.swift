@@ -90,6 +90,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         default:
             break
         }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
