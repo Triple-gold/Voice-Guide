@@ -38,7 +38,6 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
     }
     // table cell Chick Hadnle
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         switch indexPath.row {
         case 0:
             locationNumber = 1;
