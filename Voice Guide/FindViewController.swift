@@ -44,7 +44,6 @@ class FindViewController: UIViewController, CLLocationManagerDelegate, MKMapView
             MKMarkerAnnotationView.self,
             forAnnotationViewWithReuseIdentifier: "pin"
         )
-        
     }
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) ->
     MKAnnotationView? {
