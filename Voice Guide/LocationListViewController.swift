@@ -88,8 +88,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
             locationNumber = 12;
             performSegue(withIdentifier: "goLocationDetail", sender: locationNumber)
             break
-        default:
-            
+        default:   
             break
         }
     }
