@@ -15,6 +15,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
     
     var info = ["Chungking Mansions", "Hong Kong Clock Tower","Tian Tan Buddha",
                 "Wong Tai Sin Temple", "Hong Kong Disneyland", "Lan Kwai Fong", "Tai O Fishing Village",  "Avenue Of Stars", "Cheung Shan Monastery", "Tang Kwong U Ancestral Hall", "Island House","Rock Carving on Kau Sai Chau"]
+    
     var locationNumber: Int?
     
     override func viewDidLoad() {
