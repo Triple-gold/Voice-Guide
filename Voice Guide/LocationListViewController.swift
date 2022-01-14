@@ -99,7 +99,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         if segue.identifier == "goLocationDetail"{
             let controller = segue.destination as! LocationDetailViewController
             controller.locationNumber = sender as? Int
-        }  
+        }   
     }
 }
 
