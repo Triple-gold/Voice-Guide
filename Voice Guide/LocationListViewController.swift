@@ -91,7 +91,6 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
             break
         }
     }
-    //prepare the location number to next page
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goLocationDetail"{
             let controller = segue.destination as! LocationDetailViewController
