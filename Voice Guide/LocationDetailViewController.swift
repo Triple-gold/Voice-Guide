@@ -57,7 +57,6 @@ class LocationDetailViewController: UIViewController, CLLocationManagerDelegate 
             Outsiders.voice = AVSpeechSynthesisVoice(language: "en-US")
             synthesizer.speak(Outsiders)
         }
-        
     }
     
     @IBAction func mapNavigation(_ sender: Any) {
