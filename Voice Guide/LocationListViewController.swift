@@ -36,6 +36,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         cell.textLabel?.text = info[indexPath.row]
         return cell
     }
+    
     // table cell Chick Hadnle
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
