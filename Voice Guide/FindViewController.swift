@@ -29,7 +29,7 @@ class FindViewController: UIViewController, CLLocationManagerDelegate, MKMapView
             annotation.coordinate = location
             annotation.title = title
             annotation.subtitle = subtitle
-            
+    
             return annotation
         }
     }
