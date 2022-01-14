@@ -8,7 +8,6 @@
 import UIKit
 
 class LocationListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
-
     
     var tableView:UITableView!
     
