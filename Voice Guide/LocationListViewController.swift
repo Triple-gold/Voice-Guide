@@ -24,6 +24,7 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
         tableView.dataSource = self
         self.view.addSubview(tableView)
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return info.count
     }
