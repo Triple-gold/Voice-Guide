@@ -41,7 +41,7 @@ class LocationDetailViewController: UIViewController, CLLocationManagerDelegate 
         self.textView?.text = locationInfo;
         locationLabel.text = locationName;
     }
-    //
+    
     @IBAction func textToSpeech(_ sender: Any) {
         if synthesizer.isSpeaking {
             if synthesizer.isPaused {
