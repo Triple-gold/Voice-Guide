@@ -8,7 +8,6 @@
 import UIKit
 import MapKit
 import CoreLocation
-import SafariServices
 
 class FindViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
