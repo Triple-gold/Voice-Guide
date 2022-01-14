@@ -98,6 +98,5 @@ class LocationListViewController: UIViewController, UITableViewDataSource, UITab
             controller.locationNumber = sender as? Int
         }
     }
-    
 }
 
